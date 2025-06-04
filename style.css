@@ -1,0 +1,17 @@
+#value {
+  font-size: 3rem;
+  margin: 1rem 0;
+  font: bold 3rem Arial, sans-serif;
+  color: #333;
+}
+        .btn.reset { background: #b8abab; color: #a4508b; } 
+        .btn.decrease { background: #f67280; color: #fff; }
+        .btn.increase { background: #36d1c4; color: #fff; }
+        .btn:hover {
+            transform: scale(1.07);
+            filter: brightness(1.1);
+        }
+        @media (max-width: 500px) {
+            .container { min-width: unset; padding: 2rem 0.5rem; }
+            #value { font-size: 3rem; }
+        }
